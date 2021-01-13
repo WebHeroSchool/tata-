@@ -10,12 +10,15 @@ const App = () => {
     const items = [
       {
         value: 'Написать новое приложение'
+        isDone: true
       },
       {
         value: 'прописать props'
+        isDone: true
       },
       {
         value: 'сделать все дела'
+        isDone: false
       }
     ];
 
